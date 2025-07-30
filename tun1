@@ -61,7 +61,7 @@ $URL  = "https://www.rsiunisma.com/?q=$BRAND";
 $PAGEURL = "https://www.rsiunisma.com/?q=$BRAND";
 $AMP = "https://siunisma.pages.dev/?q=$BRAND";
 $LOGO = "https://www.rsiunisma.com/wp-content/themes/panchsoft/assets/images/dark_logo.svg";
-$BANNER = "https://www.rsiunisma.com/wp-content/themes/panchsoft/assets/images/les-issambres.jpg";
+$BANNER = "https://www.rsiunisma.com/wp-content/uploads/2025/06/RSI-UNISMA-21.jpg";
 $keyword = "$brand";
 
 if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
