@@ -112,7 +112,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
 <title><?php echo $TITLE ?></title>
 
 <meta name="description" content="<?php echo $DESCRIPTION ?>">
-<meta name="keywords" content="$BRAND"/>
+<meta name="keywords" content="<?php echo $BRAND ?>"/>
 
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
@@ -145,10 +145,10 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
   "description": "<?php echo $DESCRIPTION ?>",
   "brand": {
     "@type": "Brand",
-    "name": "$BRAND"
+    "name": "<?php echo $BRAND ?>"
   },
-  "sku": "$BRAND-LOGIN",
-  "mpn": "$BRAND-001",
+  "sku": "<?php echo $BRAND ?>-LOGIN",
+  "mpn": "<?php echo $BRAND ?>-001",
   "url": "<?php echo $URL ?>",
   "offers": {
     "@type": "Offer",
@@ -160,7 +160,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
     "availability": "https://schema.org/InStock",
     "seller": {
       "@type": "Organization",
-      "name": "$BRAND"
+      "name": "<?php echo $BRAND ?>"
     }
   },
   "aggregateRating": {
@@ -205,31 +205,31 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "$BRAND",
+      "name": "<?php echo $BRAND ?>",
       "item": "<?php echo $URL ?>"
     },
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "LINK $BRAND",
+      "name": "<?php echo $BRAND ?>",
       "item": "<?php echo $URL ?>"
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "$BRAND LOGIN",
+      "name": "<?php echo $BRAND ?> LOGIN",
       "item": "<?php echo $URL ?>"
     },
     {
       "@type": "ListItem",
       "position": 4,
-      "name": "$BRAND ALTERNATIF",
+      "name": "<?php echo $BRAND ?> ALTERNATIF",
       "item": "<?php echo $URL ?>"
     },
     {
       "@type": "ListItem",
       "position": 5,
-      "name": "$BRAND",
+      "name": "<?php echo $BRAND ?>",
       "item": "<?php echo $URL ?>"
     },
     {
@@ -241,7 +241,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
     {
       "@type": "ListItem",
       "position": 7,
-      "name": "$BRAND",
+      "name": "<?php echo $BRAND ?>",
       "item": "<?php echo $URL ?>"
     },
     {
@@ -258,13 +258,13 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "$BRAND",
+  "name": "<?php echo $BRAND ?>",
   "url": "<?php echo $URL ?>",
   "logo": "<?php echo $LOGO ?>",
   "sameAs": [
-    "https://www.facebook.com/$BRANDofficial",
-    "https://twitter.com/$BRANDslot",
-    "https://www.instagram.com/$BRANDgacor"
+    "https://www.facebook.com/$BRAND",
+    "https://twitter.com/$BRAND",
+    "https://www.instagram.com/$BRAND"
   ],
   "contactPoint": {
     "@type": "ContactPoint",
@@ -459,7 +459,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
 
   <div class="off-canvas-left__current-site -color-themeforest">
   <span class="off-canvas-left__site-title">
-    $BRAND
+    <?php echo $BRAND ?>
   </span>
 
   <a class="off-canvas-left__current-site-toggle -white-arrow -color-themeforest" data-view="dropdown"
@@ -1191,7 +1191,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
                                                 <a class="global-header-menu__link"
                                                     href="<?php echo $URL ?>">
                                                     <span class="global-header-menu__link-text">
-                                                        $BRAND
+                                                        <?php echo $BRAND ?>
                                                     </span>
                                                 </a>
                                             </li>
@@ -1199,7 +1199,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
                                                 <a class="global-header-menu__link"
                                                     href="<?php echo $URL ?>">
                                                     <span class="global-header-menu__link-text">
-                                                        SLOT GACOR
+                                                        <?php echo $BRAND ?>
                                                     </span>
                                                 </a>
                                             </li>
@@ -1259,7 +1259,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
                                     <nav class="header-site-titles__container">
                                         <div class="header-site-titles__site" bis_skin_checked="1">
                                             <a class="header-site-titles__link t-link is-active" alt="Web Templates"
-                                                href="<?php echo $URL ?>">$BRAND</a>
+                                                href="<?php echo $URL ?><?php echo $BRAND ?></a>
                                         </div>
                                         <div class="header-site-titles__site" bis_skin_checked="1">
                                             <a class="header-site-titles__link t-link" alt="Code"
@@ -1283,7 +1283,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
                                         </div>
                                         <div class="header-site-titles__site" bis_skin_checked="1">
                                             <a class="header-site-titles__link t-link" alt="3D Files"
-                                                href="<?php echo $URL ?>">$BRAND</a>
+                                                href="<?php echo $URL ?>"><?php echo $BRAND ?></a>
                                         </div>
 
                                         <div class="header-site-titles__site elements-nav__container"
@@ -1360,7 +1360,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
                                                 data-dropdown-target=".js-categories-0-dropdown"
                                                 href="<?php echo $URL ?>">
 
-                                                $BRAND
+                                                <?php echo $BRAND ?>
 
                                             </a>
                                         </li>
@@ -1378,7 +1378,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
                                                 data-dropdown-target=".js-categories-2-dropdown"
                                                 href="<?php echo $URL ?>">
 
-                                                $BRAND
+                                                <?php echo $BRAND ?>
 
                                             </a>
                                         </li>
@@ -1386,7 +1386,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
                                             <a class="header-categories__main-link header-categories__main-link--empty"
                                                 href="<?php echo $URL ?>">
 
-                                                $BRAND
+                                                <?php echo $BRAND ?>
 
                                             </a>
                                         </li>
@@ -1395,7 +1395,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
                                                 data-dropdown-target=".js-categories-4-dropdown"
                                                 href="<?php echo $URL ?>">
 
-                                                LINK $BRAND
+                                                <?php echo $BRAND ?>
 
                                             </a>
                                         </li>
@@ -1456,11 +1456,11 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
                             <nav class="breadcrumbs h-text-truncate  ">
 
                                 <a class="js-breadcrumb-category"
-                                    href="<?php echo $URL ?>">$BRAND</a>
+                                    href="<?php echo $URL ?>"><?php echo $BRAND ?></a>
 
 
                                 <a href="<?php echo $URL ?>"
-                                    class="js-breadcrumb-category">SITUS SLOT $BRAND</a>
+                                    class="js-breadcrumb-category"><?php echo $BRAND ?></a>
 
                                 <a class="js-breadcrumb-category"
                                     href="<?php echo $URL ?>"><?php echo $TITLE ?></a>
@@ -1489,7 +1489,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
 
   <div class="item-header__details-section">
     <div class="item-header__author-details">
-      By <a rel="author" class="js-by-author" href="<?php echo $URL ?>">$BRAND</a>
+      By <a rel="author" class="js-by-author" href="<?php echo $URL ?>"><?php echo $BRAND ?></a>
     </div>
       <div class="item-header__sales-count" bis_skin_checked="1">
                                         <svg width="16px" height="16px" viewBox="0 0 16 16"
@@ -1503,7 +1503,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
         <strong>88,898</strong> Sales
       </div>
       <div class="item-header__envato-highlighted">
-        <strong>$BRAND</strong>
+        <strong><?php echo $BRAND ?></strong>
           <svg width="16px"
      height="16px"
      viewBox="0 0 14 14"
@@ -1518,7 +1518,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
 
       </div>
       <div class="item-header__envato-highlighted">
-        <strong>$BRAND</strong>
+        <strong><?php echo $BRAND ?></strong>
           <svg width="16px"
      height="16px"
      viewBox="0 0 14 14"
@@ -1729,7 +1729,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
                                                         href="<?php echo $AMP ?>"
                                                         role="button" class="btn-icon screenshots" target="_blank"
                                                         rel="noopener">
-                                                        DAFTAR $BRAND
+                                                        <?php echo $BRAND ?>
                                                     </a>
 
                                                 </div>
@@ -1873,7 +1873,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
                   </li>
                   <li class="t-icon-list__item -icon-ok">
                     <span class="is-visually-hidden">Included:</span>
-                    $BRAND
+                    <?php echo $BRAND ?>
                   </li>
                   <li class="t-icon-list__item -icon-ok">
                     <span class="is-visually-hidden">Included:</span>
@@ -1929,7 +1929,7 @@ if ($NUMLIST >= 1 && $NUMLIST <= 21134) {
 
 
     <div class="t-body -size-s h-text-align-center h-mt2">
-  &copy; All Rights Reserved $BRAND
+  &copy; All Rights Reserved <?php echo $BRAND ?> 
   <br/>
   <a href="<?php echo $URL ?>">Contact the Envato Market Help Team</a>
 </div>
